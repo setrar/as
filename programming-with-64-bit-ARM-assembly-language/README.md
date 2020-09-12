@@ -18,10 +18,10 @@ aarch64
 
 - [ ] 32 bit
 
-``
+```
 $ uname --machine
 armv7l
-``
+```
 
 * I couldn't find any suitable distribution for Kali despite going through the official releases on [offensive-security.com](https://www.offensive-security.com/kali-linux-arm-images) images
 
