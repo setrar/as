@@ -18,3 +18,11 @@ I tried :
 :bookmark: (with success)
 - [x] [Ubuntu 20.04.1 LTS - Raspberry Pi 4](https://ubuntu.com/download/raspberry-pi/thank-you?version=20.04.1&architecture=arm64+raspi)
 
+
+:m: Cutting and pasting the code:
+
+:bookmark: (without success)
+- [ ] from the `epub` file
+- [ ] from the `pdf` file
+
+:bulb: Type the code to train your fingers
