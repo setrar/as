@@ -25,3 +25,7 @@ Disassembly of section .text:
   1c:	d4000001 	svc	#0x0
 	...
 ```
+
+## References
+
+[ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format): ELF, formerly named Extensible Linking Format
