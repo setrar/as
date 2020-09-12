@@ -15,6 +15,6 @@ I tried :
 - [ ] [Kali Linux RPi](https://images.kali.org/arm-images/kali-linux-2020.3a-rpi.img.xz) image
 - [ ] [Kali Linux RaspberryPi 2 (v1.2), 3 and 4 (64-Bit)](https://images.kali.org/arm-images/kali-linux-2020.3a-rpi3-nexmon-64.img.xz) image
 
-:bookmark: (wit success)
+:bookmark: (with success)
 - [x] [Ubuntu 20.04.1 LTS - Raspberry Pi 4](https://ubuntu.com/download/raspberry-pi/thank-you?version=20.04.1&architecture=arm64+raspi)
 
