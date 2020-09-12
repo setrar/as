@@ -9,10 +9,19 @@ https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
 
 * How to know if you are running a 64 bit machine `-m, --machine            print the machine hardware name`
 
+- [x] 64 bit
+
 ```
 $ uname -m
 aarch64
 ```
+
+- [ ] 32 bit
+
+``
+$ uname --machine
+armv7l
+``
 
 I couldn't find any suitable distribution for Kali despite going through the official releases on [offensive-security.com](https://www.offensive-security.com/kali-linux-arm-images) images
 
