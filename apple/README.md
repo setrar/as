@@ -3,6 +3,8 @@
 
 https://padamthapa.com/blog/my-first-x86-64-assembly-in-macos/
 
+https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html
+
 * Build
 
 ```
