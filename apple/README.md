@@ -1,4 +1,4 @@
-# Apple MacOS Assembly
+# Apple MacOS Assembly (Intel X86_64 CISC)
 
 
 https://padamthapa.com/blog/my-first-x86-64-assembly-in-macos/
