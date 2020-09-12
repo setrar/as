@@ -6,9 +6,9 @@
 // X8 - Linux function number
 //
 
-.global _start
+.global _start // Provide program starting address
 
-_start: mov    X0, #1 // Provide provide starting address
+_start: mov    X0, #1
         ldr    X1, =helloworld
         mov    X2, #13
         mov    X8, #64
