@@ -10,15 +10,17 @@
 
 // Setup the parameters to print hello world
 // and then call Linux to do it.
-_start: mov    X0, #1
-        ldr    X1, =helloworld
-        mov    X2, #13
-        mov    X8, #64
+_start: mov    X0, #1           // 1 = StdOut
+        ldr    X1, =helloworld  // string to print
+        mov    X2, #13          // length of our call
+        mov    X8, #64          // Call Linux to output the string
         svc    0
 
-        mov    X0, #0
-        mov    X8, #93
-        svc    0
+// Setup the parameters to exit the programm
+// and then call Linux to do it.
+        mov    X0, #0           // Use 0 return code
+        mov    X8, #93          // Service ccode 93
+        svc    0                // Call Linux to terminate
 
 .data
 helloworld:    .ascii "Hello World!\n"
