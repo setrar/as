@@ -8,6 +8,8 @@
 
 .global _start // Provide program starting address
 
+// Setup the parameters to print hello world
+// and then call Linux to do it.
 _start: mov    X0, #1
         ldr    X1, =helloworld
         mov    X2, #13
