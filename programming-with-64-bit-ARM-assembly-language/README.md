@@ -12,7 +12,7 @@ https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
 - [x] 64 bit
 
 ```
-$ uname -m
+$ uname --machine
 aarch64
 ```
 
