@@ -28,4 +28,4 @@ Disassembly of section .text:
 
 ## References
 
-[ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format): ELF, formerly named Extensible Linking Format
+[ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format): Executable and Linkable Format (formerly named Extensible Linking Format)
