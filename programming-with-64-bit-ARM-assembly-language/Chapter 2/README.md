@@ -17,7 +17,7 @@ $ objdump --full-contents \
           movenadd
 ```
 
-```assembly
+```
 //
 // Example of 128-Bit addition with the ADD/ADC instructions.
 //
