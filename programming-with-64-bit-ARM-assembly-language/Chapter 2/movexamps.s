@@ -39,15 +39,16 @@ _start: MOV     X2, #0x6E3A
 
 // Example that can't be represented and results in an error
 // Uncomment the instruction if you want to see the error
-
-// MOV X1, #0xABCDEF11 // Too big for #imm16 and can't be represented.
+//     MOV X1, #0xABCDEF11 // Too big for #imm16 and can't be represented.
 
 // Example of MOVN
      MOVN  W1, #45
 
-// Example of a MOV that the Assembler will change to MOVN MOV W1, #0xFFFFFFFE // (-2)
+// Example of a MOV that the Assembler will change to MOVN
+     MOV W1, #0xFFFFFFFE // (-2)
+
 // Setup the parameters to exit the program // and then call Linux to do it.
-     MOV     X0, #0   // Use 0 return code
+     MOV     X0, #42   // Use 42 return code
      MOV     X8, #93  // Serv command code 93 terms
      SVC     0        // Call linux to terminate
 
