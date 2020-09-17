@@ -5,7 +5,7 @@ https://github.com/Apress/programming-with-64-bit-ARM-assembly-language
 
 ## Comments
 
-:m: 64 bits distribution:
+:m: 64 bits distribution: check with [`uname`](https://en.wikipedia.org/wiki/Uname) Command
 
 * How to know if you are running a 64 bit machine `-m, --machine            print the machine hardware name`
 
