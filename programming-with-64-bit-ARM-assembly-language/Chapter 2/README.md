@@ -9,6 +9,10 @@
 $ ./build
 ```
 
+* Disassemble the binary
+
 ```
-$ objdump -s -d -M no-aliases movexamps.o
+$ objdump --full-contents \
+          --disassemble --disassembler-options no-aliases \
+          movenadd
 ```

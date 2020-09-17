@@ -1,0 +1,2 @@
+as -o movenadd.o movenadd.s 
+ld -o movenadd  movenadd.o
