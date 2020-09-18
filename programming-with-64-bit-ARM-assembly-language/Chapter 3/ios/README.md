@@ -18,3 +18,11 @@ extern void start( void );
 
 
 ![image](images/XCode-Project.png)
+
+# References
+
+https://developer.apple.com/documentation/xcode/writing_arm64_code_for_apple_platforms?language=objc
+
+https://mikejfromva.com/2018/05/26/arm64-assembly-with-swift-and-xcode/
+
+https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
