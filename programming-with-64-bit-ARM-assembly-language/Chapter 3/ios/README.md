@@ -1,6 +1,6 @@
 # iOS
 
-:x: I was able to the iOS example only by using iOS Target 13.x which is no longer available for iPhone 5s
+:x: I was able to run the iOS example only by using iOS Target 13.x which is no longer available for iPhone 5s
 
 - [x] Create a project using the below setup.
 - [x] Add a new `Assembly File` called `HelloWorld`
