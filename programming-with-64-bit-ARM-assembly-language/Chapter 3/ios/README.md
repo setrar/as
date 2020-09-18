@@ -1,6 +1,6 @@
 # iOS
 
-:x: I was able to run the iOS example only by using iOS Target 13.x which is no longer available for iPhone 5s
+## :a: Running under iOS
 
 - [x] Create a project using the below setup.
 - [x] Add a new `Assembly File` called `HelloWorld`
@@ -18,6 +18,10 @@ extern void start( void );
 
 
 ![image](images/XCode-Project.png)
+
+## :x: I was able to run the iOS example only by using iOS Target 13.x which is not available for iPhone 5s and less
+
+
 
 # References
 
