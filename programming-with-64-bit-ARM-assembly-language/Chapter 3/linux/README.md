@@ -8,7 +8,7 @@ Cross-Compiling
 $ sudo apt-get install gcc-aarch64-linux-gnu
 ```
 
-- [x] Get `qemu` Emulator
+- [x] Get the `qemu` Emulator
 
 ```
 $ sudo apt-get install qemu qemu-user
