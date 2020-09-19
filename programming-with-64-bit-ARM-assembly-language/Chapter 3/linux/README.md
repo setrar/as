@@ -14,6 +14,12 @@ $ sudo apt-get install gcc-aarch64-linux-gnu
 $ sudo apt-get install qemu qemu-user
 ```
 
+```
+$ qemu-aarch64 HelloWorld
+Hello World!
+```
+
+
 #### :x: Makefile
 
 When editing a `Makefile` make sure you add a tabulation character (and not spaces) as a separator to make indentation work
