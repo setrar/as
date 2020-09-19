@@ -2,22 +2,26 @@
 
 Cross-Compiling
 
-* Get the GCC ARM 64-bit compiler (`C++` compiler `g++` is not needed here)
+- [x] Get the GCC ARM 64-bit compiler (`C++` compiler `g++` is not needed here) and build the project (i.e. `make`)
 
 ```
 $ sudo apt-get install gcc-aarch64-linux-gnu
 ```
 
-* Get `qemu` Emulator
+- [x] Get `qemu` Emulator
 
 ```
 $ sudo apt-get install qemu qemu-user
 ```
 
+- [x] Run the program through the emulator
+
 ```
 $ qemu-aarch64 HelloWorld
 Hello World!
 ```
+
+:bulb: The same `HelloWorld` application was also copied and tested on a `Raspberry Pi 4`
 
 
 #### :x: Makefile
