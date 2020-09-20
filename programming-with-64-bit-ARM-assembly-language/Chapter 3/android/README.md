@@ -1,5 +1,7 @@
 # Android
 
+:bookmark: Everything was run under `Ubuntu 20.04LTS` on an Intel Machine
+
 ## :o: Install [Android NDK](https://developer.android.com/ndk)
 
 
@@ -18,4 +20,11 @@ $ make -f makefile2 ANDROID=y
 
 ```
 $ qemu-aarch64 ./HelloWorld
+```
+
+## Test the file Type
+
+```
+$ file HelloWorld
+HelloWorld: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
 ```
