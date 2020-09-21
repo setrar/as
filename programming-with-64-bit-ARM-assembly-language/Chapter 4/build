@@ -1,0 +1,2 @@
+as -g -o printword.o printword.s 
+ld -o printword  printword.o
