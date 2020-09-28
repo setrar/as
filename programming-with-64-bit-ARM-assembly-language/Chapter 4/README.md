@@ -1,0 +1,5 @@
+# Condition
+
+```
+$ build printword
+```
