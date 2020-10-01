@@ -1,0 +1,17 @@
+TOOLPATH=$(ANDROID_HOME)/ndk/20.1.5948944/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/bin
+
+ifdef ANDROID
+AS = $(TOOLPATH)/as
+LD = $(TOOLPATH)/ld
+else
+AS = as
+LD = ld
+endif
+
+OBJS = HelloWorld.o
+
+%.o : %.s
+        $(AS) -c $< -o $@
+
+HelloWord: $(OBJS)
+        $(LD) -o HelloWorld $(OBJS)
