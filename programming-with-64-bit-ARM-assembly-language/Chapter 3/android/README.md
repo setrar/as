@@ -30,3 +30,12 @@ $ qemu-aarch64 ./HelloWorld
 $ file HelloWorld
 HelloWorld: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
 ```
+
+## :x: On Mac Darwin ()
+
+% sdkmanager --list
+Installed packages:=====================] 100% Computing updates...             
+  Path                                                | Version      | Description                                     | Location                                            
+  -------                                             | -------      | -------                                         | -------                                             
+...
+ndk;20.1.5948944                                    | 20.1.5948944 | NDK (Side by side) 20.1.5948944                 | ndk/20.1.5948944/                    
