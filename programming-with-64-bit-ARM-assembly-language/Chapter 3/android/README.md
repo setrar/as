@@ -33,9 +33,27 @@ HelloWorld: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically
 
 ## :x: On [Mac Darwin](makefile2-darwin)
 
+- [x] Along with Java, install andoid-sdk
+
+```
+% brew cask install android-sdk
+android-sdk
+```
+
+- [x] Verify
+
+```
+% brew cask list             
+android-sdk
+```
+
+- [x] Install `[ndk]`
+
 ```
 % sdkmanager --install "ndk;20.1.5948944"
 ```
+
+- [x] Verify `[ndk]`
 
 ```
 % sdkmanager --list
