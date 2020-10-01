@@ -31,7 +31,7 @@ $ file HelloWorld
 HelloWorld: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
 ```
 
-## :x: On Mac Darwin ()
+## :x: On [Mac Darwin](makefile2-darwin)
 
 ```
 % sdkmanager --install "ndk;20.1.5948944"
